@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RSSCHOOL-CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -13,35 +18,40 @@
         <h1>RS SCHOOL CV</h1>
       </header>
       <main>
-        <section>
-          <h2>About</h2>
-          <p>
-            Hi, my name is Milana! I'm studying computer science at university.
-            My goal during this course is to improve my skills and learn
-            something new. I'm really into frontend and want to have fun.
-          </p>
-        </section>
-        <section>
-          <h2>Skills</h2>
-          <ul>
-            <li>HTML</li>
-            <li>CSS/SCSS</li>
-            <li>JavaScript</li>
-            <li>Typescript</li>
-          </ul>
-        </section>
-        <section>
+        <figure class="picture-container">
           <img
             class="picture"
             src="https://images.unsplash.com/photo-1615497001839-b0a0eac3274c?q=80&w=3987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="cat"
-            title="cat">          
-        </section>
+            title="cat">
+        </figure>
+        <div class="content">
+          <section>
+            <h2>About</h2>
+            <p>
+              Hi, my name is Milana! I'm studying computer science at
+              university. My goal during this course is to improve my skills and
+              learn something new. I'm really into frontend and want to have
+              fun.
+            </p>
+          </section>
+          <section>
+            <h2>Skills</h2>
+            <ul>
+              <li>HTML</li>
+              <li>CSS/SCSS</li>
+              <li>JavaScript</li>
+              <li>Typescript</li>
+              <li>React</li>
+              <li>Redux</li>
+            </ul>
+          </section>
+        </div>
       </main>
       <footer>
         <div class="footer-container">
           <p>Made for</p>
-          <a href="https://rs.school/js/"
+          <a class="rs-school-logo" href="https://rs.school/js/"
             ><img src="assets/rs_school.svg" alt="RS School">
           </a>
           <p>
